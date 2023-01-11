@@ -40,21 +40,16 @@ relleno_2 = " "
 cadena_vacia = ""
 
 Mmensaje_inicial = "RADAR DE VELOCIDAD"
-
 velocidad   = 0.0
 frecuencia_0 = 2e-10            
-frecuencia_1 = 2.0000004e-10    
-
+frecuencia_1 = 2.0000004e-10  
 
 formato_respuesta = ">>> La Velocidad es: %0.2f millas/hora."
-
 print(cadena_vacia.center(ancho,relleno_1))
 print(Mmensaje_inicial.center(ancho,relleno_2))
 
 velocidad = 6.685e8*(frecuencia_1-frecuencia_0)/(frecuencia_1+frecuencia_0)
 
 print(cadena_vacia.center(ancho,relleno_1))
-
 print(formato_respuesta.center(ancho,relleno_2) %(velocidad))
-
 print(cadena_vacia.center(ancho,relleno_1))
