@@ -1,3 +1,4 @@
+# Edad de 2 personas
 """
 Escribir un Programa que solicite al usuario la edad de 2 
 personas, y diga cuál es mayor. Ejemplo:
